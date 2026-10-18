@@ -1,4 +1,4 @@
-# Espace d'administration du site J-ECS (Decap CMS)
+# Espace d'administration du site J-ECS (Sveltia CMS)
 # Chaque modification publiée ici crée une nouvelle version sur GitHub,
 # puis l'hébergeur republie le site automatiquement (1 à 2 minutes).
 
@@ -12,11 +12,11 @@ backend:
     deleteMedia: "Suppression de l'image {{path}}"
 
 locale: fr
-site_url: https://jecs.ci
-display_url: https://jecs.ci
+site_url: https://juniorecs.juniorecsentreprise.workers.dev
+display_url: https://juniorecs.juniorecsentreprise.workers.dev
 logo_url: /images/brand/logo-jecs.png
 
-media_folder: images/membres
+media_folder: jecs-site (2)/images/membres
 public_folder: /images/membres
 
 collections:
@@ -28,7 +28,7 @@ collections:
 
       - name: equipe
         label: Équipe (membres)
-        file: content/membres.json
+        file: jecs-site (2)/content/membres.json
         fields:
           - { name: mandat, label: "Mandat (ex. 2026-2027). Laisser vide pour masquer.", widget: string, required: false }
           - { name: introduction, label: "Texte de présentation de l'équipe", widget: text, required: false }
@@ -47,7 +47,7 @@ collections:
 
       - name: infos
         label: Informations générales et contacts
-        file: content/site.json
+        file: jecs-site (2)/content/site.json
         fields:
           - { name: tagline, label: "Signature (au-dessus du titre)", widget: string }
           - { name: accroche, label: "Titre principal de l'accueil", widget: string }
@@ -65,7 +65,7 @@ collections:
 
       - name: services
         label: Services
-        file: content/services.json
+        file: jecs-site (2)/content/services.json
         fields:
           - name: services
             label: Services proposés
@@ -94,7 +94,7 @@ collections:
 
       - name: temoignages
         label: Témoignages
-        file: content/temoignages.json
+        file: jecs-site (2)/content/temoignages.json
         fields:
           - name: temoignages
             label: Témoignages de clients
@@ -111,7 +111,7 @@ collections:
 
       - name: partenaires
         label: Clients et partenaires
-        file: content/partenaires.json
+        file: jecs-site (2)/content/partenaires.json
         fields:
           - name: partenaires
             label: Ils nous font confiance
@@ -123,11 +123,11 @@ collections:
             fields:
               - { name: nom, label: "Nom de la structure", widget: string }
               - { name: secteur, label: "Secteur", widget: string, required: false }
-              - { name: logo, label: "Logo (facultatif)", widget: image, required: false, choose_url: false, media_folder: "/images/partenaires", public_folder: "/images/partenaires" }
+              - { name: logo, label: "Logo (facultatif)", widget: image, required: false, choose_url: false, media_folder: "/jecs-site (2)/images/partenaires", public_folder: "/images/partenaires" }
 
       - name: chiffres
         label: Chiffres clés
-        file: content/chiffres.json
+        file: jecs-site (2)/content/chiffres.json
         fields:
           - name: chiffres
             label: Chiffres clés
@@ -142,7 +142,7 @@ collections:
 
       - name: faq
         label: Questions fréquentes
-        file: content/faq.json
+        file: jecs-site (2)/content/faq.json
         fields:
           - name: questions
             label: Questions

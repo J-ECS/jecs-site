@@ -1,0 +1,6 @@
+{
+  // Site statique servi par Cloudflare Workers (aucune compilation)
+  "name": "jecs",
+  "compatibility_date": "2026-10-01",
+  "assets": { "directory": "./" }
+}

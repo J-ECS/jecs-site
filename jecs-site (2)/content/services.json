@@ -1,0 +1,56 @@
+{
+  "services": [
+    {
+      "titre": "Audit & contrôle interne",
+      "sous_titre": "Évaluation et sécurisation de vos processus",
+      "icone": "audit",
+      "description": "Nous examinons vos procédures, testons vos contrôles et vérifions vos comptes pour repérer les risques avant qu'ils ne vous coûtent cher.",
+      "points": [
+        "Mise en place de procédures",
+        "Évaluation des risques",
+        "Vérification des comptes",
+        "Audit de conformité"
+      ],
+      "note": "Missions d'audit contractuel. La certification légale des comptes reste réservée aux commissaires aux comptes."
+    },
+    {
+      "titre": "Tenue de comptabilité",
+      "sous_titre": "Gestion complète de votre comptabilité",
+      "icone": "comptabilite",
+      "description": "Nous tenons votre comptabilité selon le SYSCOHADA révisé, de la saisie des pièces jusqu'aux états financiers, pour que vos chiffres soient toujours à jour.",
+      "points": [
+        "Saisie comptable",
+        "Rapprochements bancaires",
+        "États financiers",
+        "Suivi clients et fournisseurs"
+      ],
+      "note": ""
+    },
+    {
+      "titre": "Conseil en gestion & finance",
+      "sous_titre": "Optimisation de votre performance financière",
+      "icone": "conseil",
+      "description": "Budgets, prévisions, business plan : nous transformons vos chiffres en décisions et préparons les dossiers attendus par vos banquiers et partenaires.",
+      "points": [
+        "Optimisation budgétaire",
+        "Prévisions financières",
+        "Business plan",
+        "Analyse de rentabilité"
+      ],
+      "note": ""
+    },
+    {
+      "titre": "Études et recherches",
+      "sous_titre": "Analyse approfondie de votre secteur",
+      "icone": "etudes",
+      "description": "Études sectorielles et de marché, benchmarking, veille : nous rassemblons et analysons l'information dont vous avez besoin pour décider.",
+      "points": [
+        "Études sectorielles",
+        "Veille financière",
+        "Benchmarking",
+        "Études de marché"
+      ],
+      "note": ""
+    }
+  ]
+}

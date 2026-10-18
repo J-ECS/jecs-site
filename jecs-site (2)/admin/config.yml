@@ -1,0 +1,155 @@
+# Espace d'administration du site J-ECS (Decap CMS)
+# Chaque modification publiée ici crée une nouvelle version sur GitHub,
+# puis l'hébergeur republie le site automatiquement (1 à 2 minutes).
+
+backend:
+  name: github
+  repo: J-ECS/jecs-site
+  branch: main
+  commit_messages:
+    update: "Mise à jour : {{slug}}"
+    uploadMedia: "Ajout de l'image {{path}}"
+    deleteMedia: "Suppression de l'image {{path}}"
+
+locale: fr
+site_url: https://jecs.ci
+display_url: https://jecs.ci
+logo_url: /images/brand/logo-jecs.png
+
+media_folder: images/membres
+public_folder: /images/membres
+
+collections:
+  - name: contenu
+    label: Contenu du site
+    editor:
+      preview: false
+    files:
+
+      - name: equipe
+        label: Équipe (membres)
+        file: content/membres.json
+        fields:
+          - { name: mandat, label: "Mandat (ex. 2026-2027). Laisser vide pour masquer.", widget: string, required: false }
+          - { name: introduction, label: "Texte de présentation de l'équipe", widget: text, required: false }
+          - name: membres
+            label: Membres
+            label_singular: membre
+            widget: list
+            summary: "{{fields.nom}} — {{fields.poste}}"
+            hint: "Glissez les membres pour changer l'ordre d'affichage."
+            fields:
+              - { name: nom, label: "Nom et prénoms", widget: string }
+              - { name: poste, label: "Poste", widget: string, required: false, hint: "Ex. Président(e), Trésorier(ère), Chef de projet" }
+              - { name: promotion, label: "Promotion ou année d'études", widget: string, required: false }
+              - { name: photo, label: "Photo (portrait carré de préférence)", widget: image, required: false, choose_url: false }
+              - { name: linkedin, label: "Lien LinkedIn", widget: string, required: false, hint: "Adresse complète commençant par https://" }
+
+      - name: infos
+        label: Informations générales et contacts
+        file: content/site.json
+        fields:
+          - { name: tagline, label: "Signature (au-dessus du titre)", widget: string }
+          - { name: accroche, label: "Titre principal de l'accueil", widget: string }
+          - { name: presentation, label: "Texte sous le titre", widget: text }
+          - { name: a_propos, label: "Texte « Qui sommes-nous ? »", widget: text, hint: "Laissez une ligne vide entre deux paragraphes." }
+          - { name: delai_reponse, label: "Délai de réponse annoncé", widget: string, hint: "Ex. 24 heures ouvrées" }
+          - { name: email, label: "E-mail de contact", widget: string, required: false }
+          - { name: telephone, label: "Téléphone", widget: string, required: false }
+          - { name: whatsapp, label: "Numéro WhatsApp (vide = masqué)", widget: string, required: false }
+          - { name: adresse, label: "Adresse", widget: string, required: false }
+          - { name: linkedin, label: "Lien LinkedIn", widget: string, required: false }
+          - { name: facebook, label: "Lien Facebook", widget: string, required: false }
+          - { name: instagram, label: "Lien Instagram (vide = masqué)", widget: string, required: false }
+          - { name: aeecs_url, label: "Adresse du site AE-ECS (vide = liens masqués)", widget: string, required: false }
+
+      - name: services
+        label: Services
+        file: content/services.json
+        fields:
+          - name: services
+            label: Services proposés
+            label_singular: service
+            widget: list
+            summary: "{{fields.titre}}"
+            fields:
+              - { name: titre, label: "Nom du service", widget: string }
+              - { name: sous_titre, label: "Sous-titre", widget: string, required: false }
+              - { name: description, label: "Description (2 phrases maximum)", widget: text, required: false }
+              - name: icone
+                label: Icône
+                widget: select
+                default: comptabilite
+                options:
+                  - { label: "Loupe (audit)", value: audit }
+                  - { label: "Document (comptabilité)", value: comptabilite }
+                  - { label: "Courbe (conseil, finance)", value: conseil }
+                  - { label: "Calculatrice (études)", value: etudes }
+                  - { label: "Reçu (fiscalité)", value: fiscalite }
+                  - { label: "Diplôme (formation)", value: formation }
+                  - { label: "Personnes (paie, social)", value: paie }
+                  - { label: "Bâtiment (création d'entreprise)", value: creation }
+              - { name: points, label: "Prestations incluses", label_singular: prestation, widget: list, field: { name: point, label: Prestation, widget: string } }
+              - { name: note, label: "Précision (petit texte gris, facultatif)", widget: string, required: false }
+
+      - name: temoignages
+        label: Témoignages
+        file: content/temoignages.json
+        fields:
+          - name: temoignages
+            label: Témoignages de clients
+            label_singular: témoignage
+            widget: list
+            required: false
+            hint: "Uniquement des témoignages réels, avec l'accord du client. La section reste masquée tant que la liste est vide."
+            summary: "{{fields.nom}} — {{fields.entreprise}}"
+            fields:
+              - { name: citation, label: "Témoignage", widget: text }
+              - { name: nom, label: "Nom (ex. M. Koffi)", widget: string }
+              - { name: fonction, label: "Fonction", widget: string, required: false }
+              - { name: entreprise, label: "Entreprise", widget: string, required: false }
+
+      - name: partenaires
+        label: Clients et partenaires
+        file: content/partenaires.json
+        fields:
+          - name: partenaires
+            label: Ils nous font confiance
+            label_singular: client
+            widget: list
+            required: false
+            hint: "N'ajoutez une structure qu'avec son accord."
+            summary: "{{fields.nom}}"
+            fields:
+              - { name: nom, label: "Nom de la structure", widget: string }
+              - { name: secteur, label: "Secteur", widget: string, required: false }
+              - { name: logo, label: "Logo (facultatif)", widget: image, required: false, choose_url: false, media_folder: "/images/partenaires", public_folder: "/images/partenaires" }
+
+      - name: chiffres
+        label: Chiffres clés
+        file: content/chiffres.json
+        fields:
+          - name: chiffres
+            label: Chiffres clés
+            label_singular: chiffre
+            widget: list
+            required: false
+            hint: "Ex. « 50+ » / « Missions réalisées ». Masqué si la liste est vide."
+            summary: "{{fields.valeur}} {{fields.libelle}}"
+            fields:
+              - { name: valeur, label: "Valeur", widget: string }
+              - { name: libelle, label: "Libellé", widget: string }
+
+      - name: faq
+        label: Questions fréquentes
+        file: content/faq.json
+        fields:
+          - name: questions
+            label: Questions
+            label_singular: question
+            widget: list
+            required: false
+            summary: "{{fields.question}}"
+            fields:
+              - { name: question, label: "Question", widget: string }
+              - { name: reponse, label: "Réponse", widget: text }

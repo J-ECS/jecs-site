@@ -1,56 +1,116 @@
 {
   "services": [
     {
-      "titre": "Audit & contrôle interne",
-      "sous_titre": "Évaluation et sécurisation de vos processus",
-      "icone": "audit",
-      "description": "Nous examinons vos procédures, testons vos contrôles et vérifions vos comptes pour repérer les risques avant qu'ils ne vous coûtent cher.",
-      "points": [
-        "Mise en place de procédures",
-        "Évaluation des risques",
-        "Vérification des comptes",
-        "Audit de conformité"
-      ],
-      "note": "Missions d'audit contractuel. La certification légale des comptes reste réservée aux commissaires aux comptes."
-    },
-    {
       "titre": "Tenue de comptabilité",
-      "sous_titre": "Gestion complète de votre comptabilité",
+      "sous_titre": "Une information financière fiable et organisée",
       "icone": "comptabilite",
-      "description": "Nous tenons votre comptabilité selon le SYSCOHADA révisé, de la saisie des pièces jusqu'aux états financiers, pour que vos chiffres soient toujours à jour.",
+      "description": "Nous assurons la saisie de vos pièces comptables selon le SYSCOHADA révisé, pour une information financière fiable, organisée et toujours à jour.",
       "points": [
-        "Saisie comptable",
+        "Saisie des pièces comptables",
+        "Classement et organisation des justificatifs",
         "Rapprochements bancaires",
-        "États financiers",
-        "Suivi clients et fournisseurs"
+        "Tenue des journaux et du grand livre"
       ],
-      "note": ""
+      "note": "",
+      "prix": ""
     },
     {
-      "titre": "Conseil en gestion & finance",
-      "sous_titre": "Optimisation de votre performance financière",
+      "titre": "Déclarations fiscales et sociales",
+      "sous_titre": "Vos obligations remplies, dans les délais",
+      "icone": "fiscalite",
+      "description": "Nous vous accompagnons dans la préparation et le suivi de vos déclarations fiscales et sociales, conformément aux obligations en vigueur.",
+      "points": [
+        "Préparation des déclarations fiscales",
+        "Déclarations sociales (CNPS)",
+        "Suivi du calendrier des échéances",
+        "Conservation des justificatifs"
+      ],
+      "note": "",
+      "prix": ""
+    },
+    {
+      "titre": "Gestion de paie",
+      "sous_titre": "Des salaires conformes au Code du travail",
+      "icone": "paie",
+      "description": "Nous gérons la paie de votre entreprise conformément au Code du travail : calcul des salaires, bulletins de paie et charges sociales.",
+      "points": [
+        "Calcul des salaires",
+        "Établissement des bulletins de paie",
+        "Calcul des charges sociales",
+        "Tenue du livre de paie"
+      ],
+      "note": "",
+      "prix": ""
+    },
+    {
+      "titre": "Business plan",
+      "sous_titre": "Votre projet, chiffré et convaincant",
       "icone": "conseil",
-      "description": "Budgets, prévisions, business plan : nous transformons vos chiffres en décisions et préparons les dossiers attendus par vos banquiers et partenaires.",
+      "description": "Nous élaborons le document qui présente votre projet : modèle économique, prévisions financières et stratégie de développement, pour convaincre banques et investisseurs.",
       "points": [
-        "Optimisation budgétaire",
+        "Présentation du projet et du modèle économique",
         "Prévisions financières",
-        "Business plan",
-        "Analyse de rentabilité"
+        "Analyse de rentabilité",
+        "Stratégie de développement"
       ],
-      "note": ""
+      "note": "",
+      "prix": ""
     },
     {
-      "titre": "Études et recherches",
-      "sous_titre": "Analyse approfondie de votre secteur",
-      "icone": "etudes",
-      "description": "Études sectorielles et de marché, benchmarking, veille : nous rassemblons et analysons l'information dont vous avez besoin pour décider.",
+      "titre": "Inventaire",
+      "sous_titre": "Des stocks et des biens vérifiés",
+      "icone": "inventaire",
+      "description": "Nous recensons et contrôlons les stocks et les biens de votre entreprise pour vérifier leur existence et vous assurer un suivi fiable.",
       "points": [
-        "Études sectorielles",
-        "Veille financière",
-        "Benchmarking",
-        "Études de marché"
+        "Comptage physique des stocks",
+        "Recensement des immobilisations",
+        "Rapprochement avec la comptabilité",
+        "Analyse des écarts"
       ],
-      "note": ""
+      "note": "",
+      "prix": ""
+    },
+    {
+      "titre": "Étude de marché",
+      "sous_titre": "Décider avec les bonnes informations",
+      "icone": "marche",
+      "description": "Nous analysons votre marché, la demande, la concurrence et les opportunités pour vous aider à mieux orienter vos décisions.",
+      "points": [
+        "Analyse de la demande",
+        "Étude de la concurrence",
+        "Identification des opportunités",
+        "Recommandations"
+      ],
+      "note": "",
+      "prix": ""
+    },
+    {
+      "titre": "Conseil & compliance",
+      "sous_titre": "Des pratiques solides et conformes",
+      "icone": "compliance",
+      "description": "Nous vous accompagnons dans l'amélioration de vos pratiques et le respect des exigences réglementaires et de vos procédures internes.",
+      "points": [
+        "Diagnostic de vos pratiques",
+        "Rédaction ou mise à jour des procédures",
+        "Vérification de la conformité réglementaire",
+        "Plan d'amélioration"
+      ],
+      "note": "La certification légale des comptes reste réservée aux commissaires aux comptes.",
+      "prix": ""
+    },
+    {
+      "titre": "Analyse crédit",
+      "sous_titre": "Mesurer la capacité de remboursement",
+      "icone": "credit",
+      "description": "Nous évaluons la capacité d'un client ou d'une entreprise à rembourser un financement, à partir de sa situation financière et de ses risques.",
+      "points": [
+        "Analyse des états financiers",
+        "Calcul des ratios de solvabilité et de liquidité",
+        "Évaluation des risques",
+        "Avis argumenté"
+      ],
+      "note": "",
+      "prix": ""
     }
   ]
 }

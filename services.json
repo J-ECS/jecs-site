@@ -1,0 +1,116 @@
+{
+  "services": [
+    {
+      "titre": "Tenue de comptabilité",
+      "sous_titre": "Une information financière fiable et organisée",
+      "icone": "comptabilite",
+      "description": "Nous assurons la saisie de vos pièces comptables selon le SYSCOHADA révisé, pour une information financière fiable, organisée et toujours à jour.",
+      "points": [
+        "Saisie des pièces comptables",
+        "Classement et organisation des justificatifs",
+        "Rapprochements bancaires",
+        "Tenue des journaux et du grand livre"
+      ],
+      "note": "",
+      "prix": ""
+    },
+    {
+      "titre": "Déclarations fiscales et sociales",
+      "sous_titre": "Vos obligations remplies, dans les délais",
+      "icone": "fiscalite",
+      "description": "Nous vous accompagnons dans la préparation et le suivi de vos déclarations fiscales et sociales, conformément aux obligations en vigueur.",
+      "points": [
+        "Préparation des déclarations fiscales",
+        "Déclarations sociales (CNPS)",
+        "Suivi du calendrier des échéances",
+        "Conservation des justificatifs"
+      ],
+      "note": "",
+      "prix": ""
+    },
+    {
+      "titre": "Gestion de paie",
+      "sous_titre": "Des salaires conformes au Code du travail",
+      "icone": "paie",
+      "description": "Nous gérons la paie de votre entreprise conformément au Code du travail : calcul des salaires, bulletins de paie et charges sociales.",
+      "points": [
+        "Calcul des salaires",
+        "Établissement des bulletins de paie",
+        "Calcul des charges sociales",
+        "Tenue du livre de paie"
+      ],
+      "note": "",
+      "prix": ""
+    },
+    {
+      "titre": "Business plan",
+      "sous_titre": "Votre projet, chiffré et convaincant",
+      "icone": "conseil",
+      "description": "Nous élaborons le document qui présente votre projet : modèle économique, prévisions financières et stratégie de développement, pour convaincre banques et investisseurs.",
+      "points": [
+        "Présentation du projet et du modèle économique",
+        "Prévisions financières",
+        "Analyse de rentabilité",
+        "Stratégie de développement"
+      ],
+      "note": "",
+      "prix": ""
+    },
+    {
+      "titre": "Inventaire",
+      "sous_titre": "Des stocks et des biens vérifiés",
+      "icone": "inventaire",
+      "description": "Nous recensons et contrôlons les stocks et les biens de votre entreprise pour vérifier leur existence et vous assurer un suivi fiable.",
+      "points": [
+        "Comptage physique des stocks",
+        "Recensement des immobilisations",
+        "Rapprochement avec la comptabilité",
+        "Analyse des écarts"
+      ],
+      "note": "",
+      "prix": ""
+    },
+    {
+      "titre": "Étude de marché",
+      "sous_titre": "Décider avec les bonnes informations",
+      "icone": "marche",
+      "description": "Nous analysons votre marché, la demande, la concurrence et les opportunités pour vous aider à mieux orienter vos décisions.",
+      "points": [
+        "Analyse de la demande",
+        "Étude de la concurrence",
+        "Identification des opportunités",
+        "Recommandations"
+      ],
+      "note": "",
+      "prix": ""
+    },
+    {
+      "titre": "Conseil & compliance",
+      "sous_titre": "Des pratiques solides et conformes",
+      "icone": "compliance",
+      "description": "Nous vous accompagnons dans l'amélioration de vos pratiques et le respect des exigences réglementaires et de vos procédures internes.",
+      "points": [
+        "Diagnostic de vos pratiques",
+        "Rédaction ou mise à jour des procédures",
+        "Vérification de la conformité réglementaire",
+        "Plan d'amélioration"
+      ],
+      "note": "La certification légale des comptes reste réservée aux commissaires aux comptes.",
+      "prix": ""
+    },
+    {
+      "titre": "Analyse crédit",
+      "sous_titre": "Mesurer la capacité de remboursement",
+      "icone": "credit",
+      "description": "Nous évaluons la capacité d'un client ou d'une entreprise à rembourser un financement, à partir de sa situation financière et de ses risques.",
+      "points": [
+        "Analyse des états financiers",
+        "Calcul des ratios de solvabilité et de liquidité",
+        "Évaluation des risques",
+        "Avis argumenté"
+      ],
+      "note": "",
+      "prix": ""
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "questions": [
+    {
+      "question": "Qui réalise les missions ?",
+      "reponse": "Des étudiants du cycle Études Comptables Supérieures de l'ESCAE / INP-HB, organisés en équipe projet. Leurs travaux sont supervisés et revus avant chaque livraison."
+    },
+    {
+      "question": "Combien coûte une mission ?",
+      "reponse": "Le prix dépend du périmètre, du volume de pièces et du délai souhaité. Le devis est gratuit et sans engagement, et nos tarifs sont pensés pour rester accessibles aux petites structures."
+    },
+    {
+      "question": "Quels sont les délais ?",
+      "reponse": "Nous répondons à chaque demande sous 24 heures ouvrées. Le délai de réalisation est fixé avec vous et inscrit dans la proposition écrite, avant le début de la mission."
+    },
+    {
+      "question": "Mes informations restent-elles confidentielles ?",
+      "reponse": "Oui. Chaque mission fait l'objet d'une convention écrite qui inclut une clause de confidentialité. Vos documents ne servent qu'à la mission."
+    },
+    {
+      "question": "Pouvez-vous certifier mes comptes ?",
+      "reponse": "Non. La certification légale des comptes est réservée aux commissaires aux comptes inscrits à l'Ordre. Nous vous aidons en amont : comptabilité à jour, inventaire, procédures et conformité, pour que cette étape se passe dans de bonnes conditions."
+    },
+    {
+      "question": "Comment se passe le premier échange ?",
+      "reponse": "Après votre demande, nous vous contactons pour un échange gratuit afin de comprendre votre besoin. Vous recevez ensuite une proposition écrite : périmètre, équipe, délai et prix."
+    }
+  ]
+}

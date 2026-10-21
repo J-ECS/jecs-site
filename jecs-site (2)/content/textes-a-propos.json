@@ -1,0 +1,35 @@
+{
+  "bandeau": {
+    "surtitre": "Qui sommes-nous",
+    "titre": "La junior-entreprise des futurs experts de la comptabilité",
+    "texte": "Des étudiants de l'ESCAE / INP-HB, encadrés par des professionnels, au service des entreprises, des ONG et des institutions."
+  },
+  "faits": [
+    {
+      "icone": "award",
+      "titre": "ESCAE / INP-HB",
+      "texte": "Une formation comptable de haut niveau"
+    },
+    {
+      "icone": "check",
+      "titre": "Supervision",
+      "texte": "Des travaux revus avant chaque livraison"
+    },
+    {
+      "icone": "shield",
+      "titre": "Confidentialité",
+      "texte": "Protection de vos données"
+    },
+    {
+      "icone": "heart",
+      "titre": "Engagement",
+      "texte": "Pour votre réussite"
+    }
+  ],
+  "aeecs_texte": "J-ECS est portée par l'AE-ECS, l'Association des Étudiants des Études Comptables Supérieures.",
+  "aeecs_bouton": "Découvrir l'AE-ECS",
+  "encadrement_surtitre": "Encadrement",
+  "encadrement_titre": "Des missions supervisées par des professionnels",
+  "equipe_surtitre": "Notre équipe",
+  "equipe_titre": "Les visages de J-ECS"
+}

@@ -1,0 +1,56 @@
+{
+  "bandeau": {
+    "surtitre": "Contact",
+    "titre": "Demande de devis gratuit",
+    "texte": "Décrivez votre besoin en deux minutes : nous revenons vers vous avec une proposition adaptée."
+  },
+  "titre": "Parlons de votre projet",
+  "texte": "PME, ONG, institution ou porteur de projet : décrivez votre besoin, nous revenons vers vous avec une solution adaptée.",
+  "etapes": [
+    {
+      "titre": "Nous vous répondons",
+      "texte": "Sous {delai}."
+    },
+    {
+      "titre": "Échange gratuit",
+      "texte": "Pour bien comprendre votre besoin."
+    },
+    {
+      "titre": "Proposition écrite",
+      "texte": "Périmètre, délai et prix, sans engagement."
+    }
+  ],
+  "formulaire_titre": "Demande de devis gratuit",
+  "formulaire_sous_titre": "Trois étapes, environ deux minutes.",
+  "etape1_titre": "De quoi avez-vous besoin ?",
+  "etape1_aide": "Sélectionnez un ou plusieurs services.",
+  "etape2_titre": "Parlez-nous de votre structure",
+  "etape2_aide": "Ces informations nous aident à estimer le travail.",
+  "etape3_titre": "Comment vous recontacter ?",
+  "etape3_aide": "Nous ne partageons jamais vos coordonnées.",
+  "types_structure": [
+    "Entreprise individuelle",
+    "PME / PMI",
+    "Grande entreprise",
+    "Association / ONG",
+    "Coopérative",
+    "Startup / projet en création",
+    "Institution publique",
+    "Autre"
+  ],
+  "tranches_ca": [
+    "Moins de 10 millions FCFA",
+    "10 à 50 millions FCFA",
+    "50 à 200 millions FCFA",
+    "200 millions à 1 milliard FCFA",
+    "Plus de 1 milliard FCFA",
+    "Pas encore d'activité"
+  ],
+  "bouton_envoyer": "Envoyer ma demande",
+  "confidentialite": "Vos informations servent uniquement à répondre à votre demande. Elles ne sont ni vendues ni utilisées à d'autres fins.",
+  "merci": {
+    "titre": "Demande bien reçue.",
+    "texte": "Merci pour votre confiance. Nous vous recontacterons très rapidement pour échanger sur votre besoin.",
+    "bouton": "Retour au site"
+  }
+}

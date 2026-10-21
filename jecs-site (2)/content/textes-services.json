@@ -1,0 +1,50 @@
+{
+  "bandeau": {
+    "surtitre": "Nos services",
+    "titre": "Huit domaines pour votre structure",
+    "texte": "Comptabilité, fiscalité, paie, business plan, inventaire, études et conseil : choisissez un domaine pour voir ce qu'il comprend."
+  },
+  "guide_titre": "Quel service vous correspond ?",
+  "guide_texte": "Répondez à deux questions, nous vous orientons vers la bonne mission.",
+  "guide_question_profil": "Vous êtes…",
+  "guide_question_priorite": "Votre priorité…",
+  "guide_profils": {
+    "pme": "Une entreprise en activité",
+    "projet": "Un porteur de projet",
+    "ong": "Une ONG ou une association",
+    "inst": "Une institution"
+  },
+  "guide_priorites": {
+    "comptabilite": "Des comptes à jour et fiables",
+    "fiscalite": "Être en règle (impôts, CNPS)",
+    "paie": "Gérer mes salaires",
+    "conseil": "Lancer ou financer un projet",
+    "inventaire": "Contrôler mes stocks",
+    "marche": "Comprendre mon marché",
+    "compliance": "Respecter les règles",
+    "credit": "Évaluer un emprunteur"
+  },
+  "guide_attente_titre": "Choisissez vos réponses",
+  "guide_attente_texte": "Votre recommandation s'affichera ici, avec un accès direct à la demande de devis.",
+  "methode_surtitre": "Notre méthode",
+  "methode_titre": "Une mission en quatre temps",
+  "methode_texte": "Un cadre simple et écrit, du premier échange à la remise du livrable. Vous savez à chaque étape qui travaille sur votre dossier.",
+  "methode_etapes": [
+    {
+      "titre": "Échange sur votre besoin",
+      "texte": "Un rendez-vous gratuit pour comprendre votre situation et vos attentes."
+    },
+    {
+      "titre": "Proposition et devis",
+      "texte": "Une proposition écrite : périmètre, équipe, délai et prix."
+    },
+    {
+      "titre": "Réalisation encadrée",
+      "texte": "Un chef de projet coordonne l'équipe. Les travaux sont revus avant livraison."
+    },
+    {
+      "titre": "Livraison et restitution",
+      "texte": "Nous vous présentons les résultats et répondons à vos questions."
+    }
+  ]
+}

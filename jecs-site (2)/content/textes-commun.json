@@ -1,0 +1,28 @@
+{
+  "menu": {
+    "accueil": "Accueil",
+    "services": "Services",
+    "a_propos": "Qui sommes-nous",
+    "realisations": "Réalisations",
+    "alumni": "Alumni",
+    "faq": "FAQ",
+    "devis": "Devis gratuit"
+  },
+  "ouverture": {
+    "nom": "J-ECS",
+    "sous_titre": "Junior-Entreprise ECS"
+  },
+  "bandeau": {
+    "titre": "Un projet, une question ?",
+    "texte": "Le devis est gratuit et sans engagement. Réponse sous {delai}.",
+    "bouton_devis": "Demander un devis gratuit",
+    "bouton_faq": "Questions fréquentes"
+  },
+  "pied": {
+    "description": "Votre partenaire comptable de confiance pour une gestion financière optimale.",
+    "mention": "ESCAE – INP-HB, Yamoussoukro\nAssurance Responsabilité Civile",
+    "titre_services": "Services",
+    "titre_jecs": "J-ECS",
+    "titre_contact": "Contact"
+  }
+}

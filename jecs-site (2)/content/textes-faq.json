@@ -1,0 +1,16 @@
+{
+  "bandeau": {
+    "surtitre": "Questions fréquentes",
+    "titre": "Vos questions, nos réponses",
+    "texte": "Les réponses aux questions que l'on nous pose le plus souvent."
+  },
+  "surtitre": "Questions fréquentes",
+  "titre": "Avant de nous confier votre dossier",
+  "texte": "Vous ne trouvez pas votre réponse ? Posez-nous votre question, nous vous répondons rapidement.",
+  "question_titre": "Poser une question",
+  "question_nom": "Votre nom",
+  "question_contact": "E-mail ou téléphone",
+  "question_champ": "Votre question",
+  "question_bouton": "Envoyer ma question",
+  "question_merci": "Merci ! Votre question est bien envoyée. Nous vous répondons très rapidement."
+}

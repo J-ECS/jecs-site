@@ -1,0 +1,52 @@
+{
+  "bouton_devis": "Demander un devis gratuit",
+  "bouton_services": "Découvrir nos services",
+  "rotation_intro": "Nous accompagnons",
+  "rotation_mots": [
+    "les PME",
+    "les ONG",
+    "les startups",
+    "les coopératives",
+    "les institutions",
+    "les porteurs de projets"
+  ],
+  "atouts": [
+    {
+      "icone": "cap",
+      "titre": "ESCAE / INP-HB",
+      "texte": "Formation comptable d'excellence"
+    },
+    {
+      "icone": "clock",
+      "titre": "Devis gratuit",
+      "texte": "Réponse sous {delai}"
+    }
+  ],
+  "pourquoi_surtitre": "Pourquoi J-ECS",
+  "pourquoi_titre": "La rigueur d'un cabinet, l'énergie d'une équipe étudiante",
+  "pourquoi_cartes": [
+    {
+      "icone": "cap",
+      "titre": "Supervision académique",
+      "texte": "Travaux encadrés par des professeurs de l'ESCAE et des professionnels."
+    },
+    {
+      "icone": "bulb",
+      "titre": "Innovation étudiante",
+      "texte": "Des méthodes actuelles et des outils modernes, avec une vraie énergie."
+    },
+    {
+      "icone": "wallet",
+      "titre": "Tarifs étudiants",
+      "texte": "Une qualité professionnelle à un prix accessible."
+    },
+    {
+      "icone": "shield",
+      "titre": "Confidentialité",
+      "texte": "Chaque mission est encadrée par une convention écrite."
+    }
+  ],
+  "carte_indice": "pour en savoir plus",
+  "chiffre_domaines": "domaines d'intervention",
+  "chiffre_delai": "délai de réponse, en heures ouvrées"
+}

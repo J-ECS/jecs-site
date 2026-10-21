@@ -1,5 +1,55 @@
 {
-  "mandat": "",
+  "mandat": "2025-2026",
   "introduction": "Des étudiants en Études Comptables Supérieures, formés aux pratiques comptables et financières, qui pilotent J-ECS et réalisent vos missions.",
-  "membres": []
+  "membres": [
+    {
+      "nom": "DIALLO OUSMANE ABDOUL-AZIZ",
+      "poste": "Président",
+      "promotion": "36",
+      "photo": "/images/membres/PHOTO PRO.jpg",
+      "linkedin": "https://www.linkedin.com/in/ousmane-abdoul-aziz-diallo-193248382"
+    },
+    {
+      "nom": "KONAN TOLLA KARL DAVID",
+      "poste": "Secrétaire Général",
+      "promotion": "36",
+      "photo": "/images/membres/KONAN.jpeg",
+      "linkedin": "https://www.linkedin.com/in/karl-david-konan-tolla-895829305/"
+    },
+    {
+      "nom": "KANGA ABONOUAN KOFFI CHOUA-IB",
+      "poste": "Responsable communication et marketing",
+      "promotion": "36",
+      "photo": "/images/membres/KOFFI.jpeg",
+      "linkedin": "https://www.linkedin.com/in/abonouan-koffi-choua-ib-kanga-6a743222a/?isSelfProfile=true"
+    },
+    {
+      "nom": "GOLY AMENAN MARIE BENEDICTE",
+      "poste": "Responsable comptable",
+      "promotion": "36",
+      "photo": "/images/membres/GOLY.jpeg",
+      "linkedin": "https://www.linkedin.com/in/b%C3%A9n%C3%A9dicte-goly-725492365/"
+    },
+    {
+      "nom": "SAN YAWA GRÂCE NOÉMIE",
+      "poste": "Trésorière",
+      "promotion": "36",
+      "photo": "/images/membres/SAN.jpeg",
+      "linkedin": "https://www.linkedin.com/in/gr%C3%A2ce-no%C3%A9mie-san-a125b9361/"
+    },
+    {
+      "nom": "TANO AIMÉ SYLVESTRE",
+      "poste": "Responsable qualité",
+      "promotion": "36",
+      "photo": "/images/membres/TANO.jpeg",
+      "linkedin": "https://www.linkedin.com/in/aim%C3%A9-sylvestre-tano-a8bb94332/"
+    },
+    {
+      "nom": "ZEBA ASSIATOU",
+      "poste": "Responsable commercial",
+      "promotion": "36",
+      "photo": "/images/membres/ZEBA.jpeg",
+      "linkedin": "https://www.linkedin.com/in/assia-zeba-28076b222/"
+    }
+  ]
 }
